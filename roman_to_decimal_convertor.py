@@ -12,7 +12,7 @@ roman_list = {
 # it takesroman number and check the adjacent position ...and then rest you can see the logic
 def convertion_function(roman_number):
     sum = 0
-    for i in range(len(roman_number) - 1):
+    for i in range(len(roman_number)-1):
         left = roman_number[i]
         right = roman_number[i + 1]
         if roman_list[left] < roman_list[right]:
